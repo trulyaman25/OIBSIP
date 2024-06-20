@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const hashedPassword = hashPassword(password);
                 if (storedUser.password === hashedPassword) {
                     alert('Login successful');
-                    window.location.href = 'secure.html';
+                    window.location.href = './notes/notes.html';
                 } else {
                     alert('Invalid credentials');
                 }

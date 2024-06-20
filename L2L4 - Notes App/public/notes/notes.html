@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minimal Notes App</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+</head>
+
+<body>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">My Notes</h1>
+    <div id="notes-container" class="row"></div>
+</div>
+
+<div class="fixed-bottom bg-light p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" id="note-input" class="form-control" placeholder="Write your note here">
+            </div>
+            <div class="col-md-4">
+                <button id="add-note-btn" class="btn btn-primary btn-block">Add Note</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="modal-overlay"></div>
+
+<div class="popup" id="popup">
+    <span class="close-popup" id="close-popup">&times;</span>
+    <div class="popup-content" id="popup-content"></div>
+    <div class="foot_div">
+        <button id="delete-note-btn" class="btn btn-danger">Delete Note</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
