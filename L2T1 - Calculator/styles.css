@@ -13,7 +13,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 260px;
+    width: fit-content;
 }
 
 .display {
@@ -39,12 +39,14 @@ body {
 }
 
 button {
-    height: 50px;
+    height: 70px;
+    width: 70px;
     background-color: #add8e6;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
+    transition: all 0.1s ease-in-out;
 }
 
 button:hover {
@@ -52,7 +54,7 @@ button:hover {
 }
 
 button#enter {
-    grid-column: span 2;
+    grid-column: span 3;
     background-color: #1e90ff;
     color: #fff;
 }
