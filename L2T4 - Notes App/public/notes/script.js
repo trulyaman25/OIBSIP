@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="card">
                 <div class="card-body d-flex justify-content-between align-items-center">
                     <p class="card-text note-truncate">${noteText}</p>
-                    <lord-icon src="https://cdn.lordicon.com/skkahier.json" trigger="hover" class="delete-note-btn"></lord-icon>
+                    <lord-icon src="https://cdn.lordicon.com/skkahier.json" trigger="hover" style="width:32px;height:32px" colors="primary:#ee6d66"></lord-icon>
                 </div>
             </div>
         `;
